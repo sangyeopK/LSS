@@ -5,9 +5,6 @@ import org.example.membership.entity.Membership;
 import static org.example.membership.controller.MembershipController.memberships;
 
 public class ManagerController {
-
-
-
     public static void list() {
         System.out.println("이름 / 나이 / 성별 / 생년월일 / 아이디 / 비밀번호");
         System.out.println("-".repeat(30));

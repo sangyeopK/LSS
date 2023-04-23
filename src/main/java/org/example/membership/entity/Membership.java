@@ -11,7 +11,7 @@ public class Membership {
     private String result;
 
     public Membership(int id, String name, int age, int birth, String gender, String userID, String password) {
-        this.id= id;
+        this.id = id;
         this.name = name;
         this.age = age;
         this.birth = birth;
@@ -21,7 +21,7 @@ public class Membership {
         this.result = result;
     }
 
-    public int getId(){
+    public int getId() {
         return id;
     }
 
